@@ -11,6 +11,8 @@ require("dotenv").config()
 
 const GOERLI_URL = process.env.GOERLI_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const ETHERSCAN_API = process.env.ETHERSCAN_API;
+
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -22,5 +24,8 @@ module.exports = {
       url: GOERLI_URL,
       accounts: [PRIVATE_KEY]
     }
+  },
+  etherscan: {
+    apiKey: ETHERSCAN_API
   }
 };
