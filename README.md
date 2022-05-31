@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# Buy Me a Coffee U+2615
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project focuses on the DeFi branch of the Web3.This project creates a gateway 
+through which the owner of the site can accepts donations via Ethereum to his Metamask wallet 
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
